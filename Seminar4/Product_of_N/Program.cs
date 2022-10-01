@@ -7,7 +7,7 @@ int ProductN(int number)
     int sumN = 1;
     for (int i = 1; i <= number; i++)
     {
-        sumN += i;
+        sumN = sumN * i;
     }
     return sumN;
 }
